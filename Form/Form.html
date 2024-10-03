@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form</title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free html tutorial" />
+  <meta name="keywords" content="html, HTML, Html" />
+  <meta name="author" content="Fuad Khan" />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js" defer></script>
+
+
+</head>
+
+<body>
+  <h1 style="text-align: center; color: rgb(204, 6, 118)">
+    <u>My Form</u>
+  </h1>
+  <div class="dform">
+    <form id="myForm">
+      <div>
+        <label for="username">Name:</label>
+        <input type="text" name="username" id="username"/><br />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"/>
+      </div>
+      <br />
+      <div>
+        <label for="photo">Photo:</label>
+        <input type="file" name="photo" id="photo" />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male" > Male
+        <input type="radio" name="gender" id="female" value="female" />Female
+      </div>
+      <br />
+      <div>
+        <label for="religion">Religion:</label>
+        <input type="checkbox" name="religion" id="islam" value="islam" />Islam
+        <input type="checkbox" name="religion" id="hindu" value="hindu" />Hindu
+      </div>
+      <br />
+
+      
+      <br />
+
+      <div>
+        <label for="department">Department:</label>
+        <select name="department">
+          <option value="cse">CSE</option>
+          <option value="swe" selected>SWE</option>
+          <option value="cis">CIS</option>
+          <option value="ice">ICE</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="comment">Comment:</label><br />
+        <textarea name="comment" cols="30" rows="10"></textarea>
+      </div>
+      <br />
+
+      <div class="error" id="errorMessage"></div>
+      <br>
+
+      <div>
+        <input type="reset" value="Clear" />
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
