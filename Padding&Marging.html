@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Padding and Margin Example</title>
-    
+    <style>
+        .center {
+            margin: auto;
+            background: lime;
+            width: 66%;
+        }
+
+        .outside {
+            margin: 3rem 0 0 -3rem;
+            background: cyan;
+            width: 66%;
+        }
+    </style>
 </head>
+
 <body>
-    <div>This div has padding and margin.</div>
+    <h2 style="color:green">
+        GeeksforGeeks
+    </h2>
+    <p class="center">
+        This element is centered.
+    </p>
+
+    <p class="outside">
+        The element is positioned outside of its corner.
+    </p>
 </body>
 </html>
